@@ -84,7 +84,7 @@ body {
     margin-top: 16px;
     margin-left: 16px;
     max-height: 170px;
-    
+    transition: 0.2s ;
 }
 .swiper-slide {
     background: #FFFFFF;
@@ -140,12 +140,13 @@ body {
     font-size: 16px;
     line-height: 24px;
     background: #f8f8f8;
-    display: inline-flex;
+    
     padding-left: 15px;
+    
 }
 .swiper__more::before {
     content: '';
-    background-position: 10px 5px;
+    background-position: 10px 12px;
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -160,7 +161,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     background: #f8f8f8;
-    display: inline-flex;
+    
     display: none;
     margin-left: 10px;
     
@@ -172,7 +173,7 @@ body {
     width: 24px;
     height: 24px;
     background-image: url(../img/close.svg) ; 
-    background-position: 5px 10px;
+    background-position: 5px 12px;
     background-repeat: no-repeat;
     
 }
