@@ -84,7 +84,7 @@ body {
     margin-top: 16px;
     margin-left: 16px;
     max-height: 170px;
-    transition: 0.2s ;
+    transition: 1s ;
 }
 .swiper-slide {
     background: #FFFFFF;
